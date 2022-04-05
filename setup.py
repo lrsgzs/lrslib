@@ -14,7 +14,7 @@ setup(
     url="http://github.com/lrsgzs/lrslib",
     packages=find_packages(),
     install_requires=['pygame','pillow','tkinter','time'],
-    extras_require=[],
+    extras_require={},
     include_package_data=True,
     license='MIT',
     classifiers=[
