@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="lrslib",
-    version="1.0.0",
+    version="1.0.1",
     description="这是lrslib",
     long_description="README.md",
     long_description_content_type='text/markdown',
