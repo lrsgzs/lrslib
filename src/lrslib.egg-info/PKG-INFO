@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: lrslib
+Version: 1.0.4
+Summary: 这是lrslib
+Home-page: http://github.com/lrsgzs/lrslib
+Author: Lrs
+Author-email: liurongshuo2022@outlook.com
+License: MIT
+Project-URL: Home, lrsgzs.top/lib/lrslib
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+这是LRSLIB
+里面有许多好用的功能
+祝你好运~
+//GitHub : github.com/lrsgzs/lrslib
+
+Doc   文档
+'tkin.Window':'对Tk()进行优化的适合中国人的一个类',
+'tools.pront':'一个一个地打印文本',
+'tools.show_image':'显示图片在pygame窗口中'
+'by':'关于'
+'func':'帮助'
+
+
