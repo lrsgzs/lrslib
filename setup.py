@@ -37,7 +37,7 @@ Doc   文档
     extras_require={},
     include_package_data=True,
     license='MIT',
-    project_urls={"Home": "lrsgzs.top/lib/lrslib"},
+    project_urls={"Github": "https://github.com/lrsgzs/lrslib"},
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
