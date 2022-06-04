@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: lrslib
 Version: 1.0.4
 Summary: 这是lrslib
-Home-page: http://github.com/lrsgzs/lrslib
+Home-page: https://github.com/lrsgzs/lrslib
 Author: Lrs
 Author-email: liurongshuo2022@outlook.com
 License: MIT
@@ -19,15 +19,23 @@ License-File: LICENSE
 
 
 这是LRSLIB
+
 里面有许多好用的功能
+
 祝你好运~
+
 //GitHub : github.com/lrsgzs/lrslib
 
 Doc   文档
-'tkin.Window':'对Tk()进行优化的适合中国人的一个类',
+
+'tkin.Window':'仿tk窗口，用Button时，Tk()为 .win',
+
 'tools.pront':'一个一个地打印文本',
+
 'tools.show_image':'显示图片在pygame窗口中'
+
 'by':'关于'
+
 'func':'帮助'
 
 

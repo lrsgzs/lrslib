@@ -1,21 +1,20 @@
 import time
-def pront(msg,ti=0.5,end='\n'):
-    """
-    一个一个地打印文本
-    :param msg:
-    :param ti:
-    :param end:
-    :return:
-    """
+
+
+def pront(msg, ti=0.5, end='\n'):
     tm = float(ti)
     for i in msg:
-        print(i,end='')
+        print(i, end='')
         time.sleep(tm)
-    print(end,end='')
+    print(end, end='')
+
+
 def show_image(image):
     class ImageError(ValueError):
         pass
-    import pygame,PIL
+
+    import pygame
+    import PIL
     pygame.init()
     pygame.display.set_caption("图片查看器 - 按ESC键退出")
     Img = image
@@ -33,6 +32,7 @@ def show_image(image):
         screen.fill((255, 255, 255))
         screen.blit(myImg, (0, 0))
         pygame.display.update()
+        pygame.event.get()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False

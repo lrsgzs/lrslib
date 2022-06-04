@@ -6,7 +6,7 @@
 
 Doc   文档
 
-'tkin.Window':'对Tk()进行优化的适合中国人的一个类',
+'tkin.Window':'仿tk窗口，用Button时，Tk()为 .win',
 
 'tools.pront':'一个一个地打印文本',
 

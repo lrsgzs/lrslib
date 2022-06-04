@@ -1,5 +1,5 @@
-import tkin
-import tools
+import .tkin
+import .tools
 
 def by():
     print('LrsLib作者：刘镕硕\n刘镕硕版权所有')
