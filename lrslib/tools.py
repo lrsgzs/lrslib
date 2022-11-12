@@ -1,11 +1,11 @@
 import time
 
 
-def pront(msg, ti=0.5, end='\n'):
-    tm = float(ti)
+def pront(msg, times=0.5, end='\n'):
+    new_time = float(times)
     for i in msg:
         print(i, end='')
-        time.sleep(tm)
+        time.sleep(new_times)
     print(end, end='')
 
 
