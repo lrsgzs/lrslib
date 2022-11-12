@@ -4,28 +4,19 @@ from setuptools import find_packages, setup
 
 setup(
     name="lrslib",
-    version="1.0.4",
+    version="1.0.5",
     description="这是lrslib",
     long_description="""
-这是LRSLIB
+# 这是LRSLIB
+## 里面有许多好用的功能
+## 祝你好运~
+### GitHub: https://github.com/lrsgzs/lrslib
 
-里面有许多好用的功能
-
-祝你好运~
-
-//GitHub : github.com/lrsgzs/lrslib
-
-Doc   文档
-
-'tkin.Window':'仿tk窗口，用Button时，Tk()为 .win',
-
-'tools.pront':'一个一个地打印文本',
-
-'tools.show_image':'显示图片在pygame窗口中'
-
-'by':'关于'
-
-'func':'帮助'
+## Doc   文档
+### 'tools.pront':'一个一个地打印文本',
+### 'tools.show_image':'显示图片在pygame窗口中'
+### 'by':'关于'
+### 'func':'帮助'
 """,
     long_description_content_type='text/markdown',
     author="Lrs",
