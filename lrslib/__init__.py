@@ -1,8 +1,7 @@
-import .tkin
-import .tools
+from . import tools
 
 __author__ = "lrs"
-__version__ = "1.0.5"
+__version__ = "1.0.6.1"
 
 def by():
     print('LrsLib作者：刘镕硕\n刘镕硕版权所有')

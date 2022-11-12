@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="lrslib",
-    version="1.0.5",
+    version="1.0.6.1",
     description="这是lrslib",
     long_description="""
 # 这是LRSLIB
@@ -22,8 +22,8 @@ setup(
     author="Lrs",
     author_email="liurongshuo2022@outlook.com",
     url="https://github.com/lrsgzs/lrslib",
-    packages=find_packages(),
-    package_dir={"": "src"},
+    packages=["lrslib"],
+    package_dir={"lrslib": "lrslib"},
     install_requires=['pygame', 'pillow'],
     extras_require={},
     include_package_data=True,
