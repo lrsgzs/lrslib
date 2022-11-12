@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.py
-src/lrslib.egg-info/PKG-INFO
-src/lrslib.egg-info/SOURCES.txt
-src/lrslib.egg-info/dependency_links.txt
-src/lrslib.egg-info/requires.txt
-src/lrslib.egg-info/top_level.txt
